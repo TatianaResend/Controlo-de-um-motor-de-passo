@@ -17,7 +17,7 @@
 <p align="center">
   <a href="#summary">Summary</a> •
   <a href="#components">Components</a> •
-  <a href="#Functioning-description">Functioning description</a> •
+  <a href="#functioning-description">Functioning description</a> •
   <a href="#license">License</a> •
   <a href="#contact">Contact</a>
 </p>
