@@ -4,59 +4,47 @@
   
 
   <br>
-  Controlo de um motor de passo
+  Control of a stepper motor
   <br>
 </h1>
 
 <p align="center">
-  <a href="#resumo">Resumo</a> •
-  <a href="#componentes">Componentes</a> •
-  <a href="#descrição-do-funcionamento">Descrição do funcionamento</a> •
-  <a href="#licença">Licença</a> •
-  <a href="#contacto">Contacto</a>
+  <a href="#summary">Summary</a> •
+  <a href="#components">Components</a> •
+  <a href="#Functioning-description">Functioning description</a> •
+  <a href="#license">License</a> •
+  <a href="#contact">Contact</a>
 </p>
 
 
 https://user-images.githubusercontent.com/101273005/211635364-eda2735e-4f55-4c60-899d-069b7ed95150.mp4
 
 
-## Resumo
+## Summary
 
-Este projeto, desenvolvido para a cadeira de Tecnologias de Acionamento e Comando, visa
-o controlo de um motor de passo. Trata-se na criação de uma interface para controlar um
-motor de passo. Isto inclui a definição do sistema elétrico, a criação de um programa para
-comunicação e controlo do motor e, finalmente, a criação de uma Web Page que permite a
-qualquer utilizador que se conecte ao ESP, o controlo do motor.
-A Web Page criada permite definir o sentido de rotação, a velocidade e o ângulo de
-movimento relativo que se pretende que o motor de passo execute.
+This project, developed for the Drive and Command Technologies course, aims to control a stepper motor. It is about creating an interface to control a stepper motor. This includes the definition of the electrical system, the creation of a program for communication and control of the motor and, finally, the creation of a Web Page that allows any user to connect to ESP, the motor control.
+The Web Page created allows defining the direction of rotation, the speed and the angle of relative movement that the stepper motor is intended to execute.
 
 
-## Componentes
+## Components
 * ESP8266
-* Módulo expansor I/O PCF8574
+* Expander module I/O PCF8574
 * Stepper Drive HR4988sq
 * Stepper Motor 24byj48s
 
 
-## Descrição do funcionamento
+## Functioning description
 
-O ESP8266 recebe informação de uma Web Page através de WiFi. Por I2C comunica com o
-módulo de expansão fazendo ativar/desativar os pinos "P0"e “P1”, que no que lhe concerne,
-estão conectados aos pinos “dir” e “step” do drive do motor. Com a ativação/desativação
-destes pinos consegue-se controlar o movimento de rotação do motor.
+The ESP8266 receives information from a Web Page over WiFi. It communicates with the expansion module via I2C by activating/deactivating pins "P0" and "P1", which, as far as you are concerned, are connected to pins "dir" and "step" of the motor drive. By activating/deactivating these pins, it is possible to control the rotation of the motor.
 
-A Web Page criada permite definir o sentido de rotação, no sentido horário
-(Clockwise) ou no sentido anti-horário (Counterclockwise). Também é possível selecionar
-uma velocidade baixa ou alta. Notando que com a velocidade “stopped” o motor não roda.
-De forma a definir uma posição, pode-se dar o ângulo de movimento relativo que se pretende
-que o motor faça.
+The Web Page created allows you to define the direction of rotation, clockwise or counterclockwise. It is also possible to select a low or high speed. Note that with the speed “stopped” the motor does not rotate.
+In order to define a position, you can give the relative movement angle that you want the motor to make.
 
-
-## Licença
+## License
 
 MIT
 
-## Contacto
+## Contact
 
 > GitHub [@TatianaResend](https://github.com/TatianaResend) &nbsp;&middot;&nbsp;
 > E-mail tatianaresende@ua.pt
