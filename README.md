@@ -1,3 +1,10 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/TatianaResend/Controlo-de-um-motor-de-passo/edit/main/README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/TatianaResend/Controlo-de-um-motor-de-passo/edit/main/README_pt.md)
+
+
+
+
+
 <h1 align="center">
   <br>
   <img src="https://user-images.githubusercontent.com/101273005/211634877-c218cebf-b6f4-4a2d-882b-d9d67f9c3cfe.png" alt="Markdownify" width="400">
