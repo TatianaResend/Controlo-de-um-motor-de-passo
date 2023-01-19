@@ -1,5 +1,5 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/TatianaResend/Controlo-de-um-motor-de-passo/edit/main/README.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/TatianaResend/Controlo-de-um-motor-de-passo/blob/main/README_pt.md)
+[![pt](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/TatianaResend/Controlo-de-um-motor-de-passo/blob/main/README_pt.md)
 
 
 <h1 align="center">
